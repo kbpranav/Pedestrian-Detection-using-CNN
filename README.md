@@ -8,6 +8,7 @@ The real-time video is captured from camera as individual frames of size 640×48
 
 The proposed model achieved recognition accuracies ranging between 96.73 – 100% based on dataset employed and also the position of the pedestrian.
 
+Download the dataset from here : https://drive.google.com/drive/folders/1uxtnKJe6Wxvb59HSW1EgoQ-tC9oCWkZV?usp=sharing and store it in folder named "database", which should be in the same directory as classifier.py
 
 Necessary packages to run:
 1. Keras
@@ -24,6 +25,7 @@ Run: classifier.py
 3. Click Load trained model
 4. Click detect pedestrains 
 
+NOTE: If running for the first time, train the model. Else, skip the training step.
 
 For reference : https://ieeexplore.ieee.org/document/9161768
 
